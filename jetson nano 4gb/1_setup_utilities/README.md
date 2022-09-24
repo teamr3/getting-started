@@ -43,3 +43,10 @@ git clone https://github.com/teamr3/docs.git
 
 Follow  this guide for obtaining personal access token:
 https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8
+
+
+# Install misc. helpful utils
+
+```
+sudo apt install python3-pip
+```
