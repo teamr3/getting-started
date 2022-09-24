@@ -40,5 +40,5 @@ Run instructions:
 Go to dir in terminal and enter:
 ```
 chmod +x ros2-foxy-desktop-main.sh
-sh ros2-foxy-desktop-main.sh
+./ros2-foxy-desktop-main.sh
 ```
