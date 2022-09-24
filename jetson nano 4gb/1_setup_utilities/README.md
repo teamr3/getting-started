@@ -29,7 +29,7 @@ If git is not installed:
 sudo apt install git
 ```
 
-# Configure your DVCS username for commits:
+Configure your DVCS username for commits:
 <p>
 <img src="https://user-images.githubusercontent.com/72982560/192076918-67b17e11-c380-4164-ad89-aa42b7b948a6.png"  width=40% height=40%>
 </p>
