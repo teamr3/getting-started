@@ -33,3 +33,5 @@ sudo apt install ros-foxy-desktop
 source /opt/ros/foxy/setup.bash
 ```
 
+Or simply run the bash script I found here (https://github.com/Tiryoh/ros2_setup_scripts_ubuntu/blob/master/ros2-foxy-desktop-main.sh)
+
