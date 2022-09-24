@@ -26,7 +26,7 @@ sudo apt-get update
 
 
 ```
-cmake ../ -DBUILD_EXAMPLES=true
+cmake ../-DFORCE_RSUSB_BACKEND=ON -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=... -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_WITH_CUDA:bool=true
 
 sudo make uninstall && make clean && make && sudo make install
 ```
