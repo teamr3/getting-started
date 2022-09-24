@@ -24,4 +24,9 @@ x11vnc -R stop
 # Setup your Github
 
 Make `github` folder in home directory.
-...
+If git is not installed:
+```
+sudo apt install git
+```
+
+https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8
