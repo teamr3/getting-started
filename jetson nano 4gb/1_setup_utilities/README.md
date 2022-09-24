@@ -23,10 +23,17 @@ x11vnc -R stop
 
 # Setup your Github
 
-Make `github` folder in home directory.
+Make `github` folder in home directory.</br>
 If git is not installed:
 ```
 sudo apt install git
 ```
+clone a private team repo (`teamr3/docs` for example) using:
+```
+git clone https://github.com/teamr3/docs.git
+```
+- enter your username
+- enter Personal Access Token as Password
 
+Follow  this guide for obtaining personal access token:
 https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8
