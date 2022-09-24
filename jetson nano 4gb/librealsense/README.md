@@ -24,10 +24,21 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
 ```
 
+Upgrade your CMAKE:
+https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
 
 ```
-cmake ../ -DBUILD_EXAMPLES=true
+cmake ../ -DFORCE_RSUSB_BACKEND=ON -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=... -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_WITH_CUDA:bool=true
 
 sudo make uninstall && make clean && make && sudo make install
 ```
+
+# Install ros2 wrapper for realsense
+
+https://github.com/IntelRealSense/realsense-ros/tree/ros2
+
+
+# Install realsense-gstreamer (Not Recommended)
+
+instructions go here
 
