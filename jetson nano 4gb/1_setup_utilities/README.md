@@ -28,8 +28,12 @@ If git is not installed:
 ```
 sudo apt install git
 ```
-## Setup git credentials
 
+Configure your DVCS username for commits:
+
+
+
+Clone repo without it:
 clone a private team repo (`teamr3/docs` for example) using:
 ```
 git clone https://github.com/teamr3/docs.git
