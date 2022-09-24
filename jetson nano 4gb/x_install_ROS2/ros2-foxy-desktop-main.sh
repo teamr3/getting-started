@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -eu
 
 # Copyright 2019-2022 Tiryoh
