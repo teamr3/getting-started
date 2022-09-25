@@ -1,4 +1,5 @@
-# Install librealsense using source builds
+# Install librealsense SDK 2.0 using source builds
+
 https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md
 
 ```
@@ -24,14 +25,15 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
 ```
 
-Upgrade your CMAKE:
-https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
+Non-CUDA CMake Flags
 
 ```
-cmake ../ -DFORCE_RSUSB_BACKEND=ON -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=... -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_WITH_CUDA:bool=true
+cmake ../ -DFORCE_RSUSB_BACKEND=ON -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_PYTHON_BINDINGS:bool=true -DBUILD_CV_EXAMPLES:bool=true 
 
 sudo make uninstall && make clean && make && sudo make install
 ```
+
+
 
 # Install ros2 wrapper for realsense
 
@@ -42,3 +44,8 @@ https://github.com/IntelRealSense/realsense-ros/tree/ros2
 
 instructions go here
 
+
+# Cuda install for sdk (has issues in 20.04):
+<p>
+add `-DBUILD_WITH_CUDA:bool=true` at the end
+</p>
