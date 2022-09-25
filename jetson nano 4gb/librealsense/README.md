@@ -47,3 +47,5 @@ instructions go here
 
 # Install sdk with CUDA (has build issues in 20.04):
 add `-DBUILD_WITH_CUDA:bool=true` at the end
+
+https://github.com/IntelRealSense/librealsense/issues/6573#issuecomment-643288134
