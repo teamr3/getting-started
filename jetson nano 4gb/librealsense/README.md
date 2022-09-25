@@ -45,7 +45,5 @@ https://github.com/IntelRealSense/realsense-ros/tree/ros2
 instructions go here
 
 
-# Cuda install for sdk (has issues in 20.04):
-<p>
+# Install sdk with CUDA (has build issues in 20.04):
 add `-DBUILD_WITH_CUDA:bool=true` at the end
-</p>
