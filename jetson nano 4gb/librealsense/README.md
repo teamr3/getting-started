@@ -28,11 +28,11 @@ sudo apt-get update
 Non-CUDA CMake Flags
 
 ```
-cmake ../ -DFORCE_RSUSB_BACKEND=ON -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_PYTHON_BINDINGS:bool=true
+cmake ../ -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_PYTHON_BINDINGS:bool=true
 
 sudo make uninstall && make clean && make && sudo make install
 ```
-
+https://dev.intelrealsense.com/docs/build-configuration
 
 
 # Install ros2 wrapper for realsense
