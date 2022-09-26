@@ -28,11 +28,11 @@ sudo apt-get update
 Non-CUDA CMake Flags
 
 ```
-cmake ../ -DFORCE_RSUSB_BACKEND=ON -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_PYTHON_BINDINGS:bool=true -DBUILD_CV_EXAMPLES:bool=true 
+cmake ../ -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_PYTHON_BINDINGS:bool=true
 
 sudo make uninstall && make clean && make && sudo make install
 ```
-
+https://dev.intelrealsense.com/docs/build-configuration
 
 
 # Install ros2 wrapper for realsense
@@ -45,7 +45,7 @@ https://github.com/IntelRealSense/realsense-ros/tree/ros2
 instructions go here
 
 
-# Cuda install for sdk (has issues in 20.04):
-<p>
+# Install sdk with CUDA (has build issues in 20.04):
 add `-DBUILD_WITH_CUDA:bool=true` at the end
-</p>
+
+https://github.com/IntelRealSense/librealsense/issues/6573#issuecomment-643288134

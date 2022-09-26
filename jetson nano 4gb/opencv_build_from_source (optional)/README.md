@@ -11,6 +11,15 @@ Run this to allocate memory and avoid memory errors and then build opencv from s
 sh swap.sh
 sh install.sh opencv
 ```
+or use 
+
+```
+```
+./swap.sh
+./install.sh opencv
+```
+```
+
 After you start install, just say yes or A for all wherever necessary and keep an eye from time to time. if you run into errors contact @tanmayyb
 
 The configurations in the file
