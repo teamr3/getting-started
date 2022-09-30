@@ -14,10 +14,8 @@ sh install.sh opencv
 or use 
 
 ```
-```
 ./swap.sh
 ./install.sh opencv
-```
 ```
 
 After you start install, just say yes or A for all wherever necessary and keep an eye from time to time. if you run into errors contact @tanmayyb
