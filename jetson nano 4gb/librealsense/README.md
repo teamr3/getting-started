@@ -21,8 +21,8 @@ echo 'hid_sensor_custom' | sudo tee -a /etc/modules
 ```
 
 ```
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
+mkdir build && cd build
 ```
 
 Non-CUDA CMake Flags
