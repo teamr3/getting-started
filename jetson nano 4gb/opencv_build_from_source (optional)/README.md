@@ -1,5 +1,7 @@
 ## How to build opencv from source with backend features enabled
 #### Note: This process takes about 2 hours so sit back, grab a mimosa and put on a movie.
+
+Ref link:  https://qiita.com/asahi0301/items/3c287190348552f19415 </br>
 Run this to enable running bash files
 ```
 chmod +x swap.sh
@@ -11,7 +13,7 @@ Run this to allocate memory and avoid memory errors and then build opencv from s
 sh swap.sh
 sh install.sh opencv
 ```
-or use 
+or use this after installing (`sudo apt-get install dos2unix`)
 
 ```
 ./swap.sh
