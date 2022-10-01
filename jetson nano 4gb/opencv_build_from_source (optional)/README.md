@@ -16,6 +16,10 @@ sh install.sh opencv
 or use this after installing (`sudo apt-get install dos2unix`)
 
 ```
+dos2unix install.sh
+```
+and then:
+```
 ./swap.sh
 ./install.sh opencv
 ```
