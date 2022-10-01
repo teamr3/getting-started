@@ -28,4 +28,5 @@ https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-lin
 sudo apt install python3-pip
 sudo apt install net-tools
 sudo apt-get install openssh-server
+sudo apt-get install dos2unix
 ```
