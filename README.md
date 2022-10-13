@@ -1,2 +1,2 @@
 # getting-started
-Repo for instruction on how to setup jetsons, networks and other software things
+Repo for instruction on how to setup Jetsons, Virtual Machines, Networks and other software things
