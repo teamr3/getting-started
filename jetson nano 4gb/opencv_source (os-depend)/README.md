@@ -2,10 +2,12 @@
 #### Note: This process takes about 2 hours so sit back, grab a mimosa and put on a movie.
 
 Ref link:  https://qiita.com/asahi0301/items/3c287190348552f19415 </br>
+Move the `swap` and `cv2_install` files to a dir of your choice </br>
+
 Run this to enable running bash files
 ```
 chmod +x swap.sh
-chmod +x install.sh
+chmod +x cv2_install.sh
 ```
 
 Run this to allocate memory and avoid memory errors and then build opencv from source
