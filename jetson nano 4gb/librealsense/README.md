@@ -32,8 +32,9 @@ cmake ../ -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXA
 
 sudo make uninstall && make clean && make && sudo make install
 ```
-https://dev.intelrealsense.com/docs/build-configuration
-
+https://dev.intelrealsense.com/docs/build-configuration </br>
+Test build by running `realsense-viewer` in the terminal </br>
+https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md
 
 # Install ros2 wrapper for realsense
 
