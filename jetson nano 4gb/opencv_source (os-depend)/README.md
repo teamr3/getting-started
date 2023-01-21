@@ -13,17 +13,17 @@ chmod +x cv2_install.sh
 Run this to allocate memory and avoid memory errors and then build opencv from source
 ```
 sh swap.sh
-sh install.sh opencv
+sh cv2_install.sh opencv
 ```
 or use this after installing (`sudo apt-get install dos2unix`)
 
 ```
-dos2unix install.sh
+dos2unix cv2_install.sh
 ```
 and then:
 ```
 ./swap.sh
-./install.sh opencv
+./cv2_install.sh opencv
 ```
 
 After you start install, just say yes or A for all wherever necessary and keep an eye from time to time. if you run into errors contact @tanmayyb
